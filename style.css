@@ -72,21 +72,21 @@ td.description {
 
 body {
 	width: 90%;
-margin: 0, auto;
+margin: 10, auto;
 background-image: url("pattern.jpg");
- background-color: #cccccc;
 }
 	
 #content{
-	overflow: auto;
+	overflow: hide;
 	margin-top: 5em;
+	margin-left: 10em;
 	background-image: url("pattern.jpg");
-	
 }
 
 #content2{
-	overflow: auto;
+	overflow: hidw;
 	margin-top: 5em;
+	margin-right: 1.5em;
 }
 
 
@@ -98,7 +98,7 @@ background-image: url("pattern.jpg");
 
 
 #img_one {
-  width: 37%;
+  width: 50%;
   clear: both;
   float: left;
 }
@@ -114,7 +114,7 @@ background-image: url("pattern.jpg");
 
 #textone {
   margin-top: 400px;
-  text-align: justify;
+  text-align: align;
   float: right;
   }
  
@@ -126,7 +126,7 @@ background-image: url("pattern.jpg");
 	font-size: 60px;
 	padding-right: 0.5em;
 	padding-top: 0.5em;
-	line-height: 1em;
+	line-height: .5em;
 }
 
 #headertwo {
@@ -135,7 +135,7 @@ background-image: url("pattern.jpg");
 	font-size: 60px;
 	padding-right: 0.5em;
 	padding-top: 0.5em;
-	line-height: 1em;
+	line-height: 1.5em;
 }
 
 
@@ -144,16 +144,18 @@ h2 {
 	text-align: center;
 	font-family: 'Anton', sans-serif;
 	font-size: 50px;
-	line-height: 0.5em;
+	line-height: 1.5em;
+
 }
 
 
-h3 {
-	text-align: right;
+
+#other {
+	text-align: left;
 	font-family: 'Anton', sans-serif;
 	font-size: 45px;
-	padding-right: 0.5em;
 	line-height: 0.1em;
+	padding-left: -5em;
 }
 
 .otherone
@@ -161,123 +163,23 @@ h3 {
 	text-align: left;
 	font-family: 'Anton', sans-serif;
 	font-size: 45px;
-	padding-right: 0.5em;
 	line-height: 0.1em;
+	padding-left: -5em;
 }
 
 
 
-p {
+#pone {
 	font-family: 'Roboto', sans-serif;
 	padding-right: 0.5em;
 	line-height: 1em;
 	font-size: 20px;
 	word-spacing; 0.5em;
+	float: left;
+	clear: both;
+	padding-bottom: 0px;
+	margin-right; -10px;
 )
-
-
-#contact-form {
-  max-width: 1208px;
-  max-width: 75.5rem;
-  margin: 0 auto;
-}
-
-#contact, label, input[name="submit"] {
-  position: relative;
-}
-label > span, input, textarea, button {
-  box-sizing: border-box;
-}
-label {
-  display: block;
-}
-label > span {
-  display: none;
-}
-input, textarea, button {
-  width: 100%;
-  padding: 0.5em;
-  border: none;
-  font: 300 100%/1.2 Ubuntu, sans-serif;
-}
-input[type="text"], input[type="email"], textarea {
-  margin: 0 0 1em;
-  border: 1px solid #ccc;
-  outline: none;
-}
-input.invalid, textarea.invalid {
-  border-color: #d5144d;
-}
-textarea {
-  height: 6em;
-}
-input[type="submit"], button {
-  background: #a7cd80;
-  color: #333;
-}
-input[type="submit"]:hover, button:hover {
-  background: #91b36f;
-}
-@media screen and (min-width: 30em) {
-  #contact-form h2 {
-    margin-left: 26.3736%;
-    font-size: 2em;
-    line-height: 1.5;
-  }
-  label > span {
-    vertical-align: top;
-    display: inline-block;
-    width: 26.3736%;
-    padding: 0.5em;
-    border: 1px solid transparent;
-    text-align: right;
-  }
-  input, textarea, button {
-    width: 73.6263%;
-    line-height: 1.5;
-  }
-  textarea {
-    height: 10em;
-  }
-  input[type="submit"], button {
-    margin-left: 26.3736%;
-  }
-}
-
-@media screen and (min-width: 48em) {
-  #contact-form {
-    text-align: justify;
-    line-height: 0;
-  }
-  #contact-form:after {
-    content: '';
-    display: inline-block;
-    width: 100%;
-  }
-  #contact-form h2 {
-    margin-left: 17.2661%;
-  }
-  #contact-form form, #contact-form aside {
-    vertical-align: top;
-    display: inline-block;
-    width: 65.4676%;
-    text-align: left;
-    line-height: 1.5;
-  }
-  #contact-form aside {
-    width: 30.9353%;
-  }
-}
-
-
-
-
-#footer{
-	align: center;
-	
-	
-}
-
 
 
 
