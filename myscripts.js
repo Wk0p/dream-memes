@@ -1,23 +1,16 @@
-<script type="text/javascript">
-var i=0; 
-	function read(){
-		if(!i){
-document.getElementByID("more").style.
-		display = "inline";
-document.getElementByID("dots").style.
-		display = "none";
-document.getElementByID("read more").innerHTML="Read Less";
-		i=1;
-	}
-	else {
-	document.getElementByID("more").style.
-		display = "none";
-document.getElementByID("dots").style.
-		display = "inline";
-document.getElementByID("read more").innerHTML="Read more";
-		i=0;
-	
-	
-	}
-	}
+<script>
+function sendMail(str) {
+    var link = "mailto:slim.hmidi1@gmail.com" + "&subject=" + escape("This is my subject") + "&body=" + escape(str);
+    title.href = link;
+}
+function submit_comment() {
+var name = document.forms["contact_form"]["Name"].value;
+var Email = document.forms["contact_form"]["Email"].value;
+var Phone = document.forms["contact_form"]["Phone"].value;
+var title = document.forms["contact_form"]["title"].value;
+var Comment = document.forms["contact_form"]["title"].value;
+if((name !="") && (Email !="") && (Phone !="") && (title !="") && (Comment !="")) {
+   sendMail("HELLO");
+}
+}
 </script>
