@@ -5,7 +5,7 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap&subset=latin-ext" rel="stylesheet">
   <link rel="stylesheet" href=reset.css>
   <link rel="stylesheet" href=style2.css>
-  <script src="myscripts.js"></script>
+  <script type="text/javascript" src="myscripts.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 
 
@@ -19,20 +19,25 @@
 <body>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#317EFB"/>
-
+<a id="Date"></a>
+<script>
+document.getElementById("date").innerHTML = Date();
+var today = new Date ();
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+</script>
 <div id="nav">
 <a href="https://blah-college-blah.tumblr.com/tagged/Unit-15" style="margin-left:50px;">Blog</a>
 <a href="https://github.com/Wk0p/gwent">Github Log</a>
 <a href="/">Reflective Blog</a>
 <a href="/">Essay</a>
-<a id="Date"></a>
-<img id="logo" src="logo.png">
+
+<img id="logo" src="logo.png" alt="logo">
 
 </div>
 
 <div id="content">
 
-<img class="picone" src="pic.jpg">
+<img class="picone" src="pic.jpg" alt="cameralad">
 <h1>Who are we?</h1>
 <br>
 <div class="limit-characters">
@@ -59,7 +64,7 @@
 
 <div id="content2">
 <div id="feature">
-<img class="pictwo" src="pictwo.jpg">
+<img class="pictwo" src="pictwo.jpg" alt="other picture">
     <h3>UX Design & Development</h3>
 	<p id="two">It all starts with an idea, sometimes yours, sometimes ours. It might be a plan to build something new, something groundbreaking. It might be driven by a market need to improve your software or to build a better experience for the customers who support your business.</p>
 	
