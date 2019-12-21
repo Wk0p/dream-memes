@@ -13,4 +13,8 @@ if((name !="") && (Email !="") && (Phone !="") && (title !="") && (Comment !="")
    sendMail("HELLO");
 }
 }
+
+var today = new Date ();
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+document.getElementByID("Date"),innerHTML = date;
 </script>
